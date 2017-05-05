@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{877a0f8e-9135-4a96-a007-1955827d487c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\01Bag">
+      <UniqueIdentifier>{11fedad0-d74e-4efe-a386-8c4fed22fda6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\01Bag\BagDirector.cpp">
+      <Filter>src\01Bag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\01Bag\BagBacktrackBuilder.cpp">
+      <Filter>src\01Bag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\01Bag\BagBuilder.cpp">
+      <Filter>src\01Bag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\01Bag\BagInput.cpp">
+      <Filter>src\01Bag</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\01Bag\BagDirector.h">
+      <Filter>src\01Bag</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\01Bag\BagBuilder.h">
+      <Filter>src\01Bag</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\01Bag\BagBacktrackBuilder.h">
+      <Filter>src\01Bag</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\01Bag\BagInput.h">
+      <Filter>src\01Bag</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
