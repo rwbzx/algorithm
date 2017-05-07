@@ -14,3 +14,10 @@ public:
 
 	virtual void StartBag() = 0;
 };
+
+class DLL_API BagDirector{
+public:
+	BagDirector();
+	~BagDirector();
+	void StartBagInstance(BagBuilder &);
+};

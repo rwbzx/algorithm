@@ -23,16 +23,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\src\01Bag\BagDirector.h">
-      <Filter>src\01Bag</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\01Bag\BagBuilder.h">
-      <Filter>src\01Bag</Filter>
-    </ClInclude>
     <ClInclude Include="..\src\01Bag\BagBacktrackBuilder.h">
       <Filter>src\01Bag</Filter>
     </ClInclude>
     <ClInclude Include="..\src\01Bag\BagInput.h">
+      <Filter>src\01Bag</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\01Bag\ExportHeader.h">
       <Filter>src\01Bag</Filter>
     </ClInclude>
   </ItemGroup>
