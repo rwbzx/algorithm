@@ -7,30 +7,48 @@
     <Filter Include="src\01Bag">
       <UniqueIdentifier>{11fedad0-d74e-4efe-a386-8c4fed22fda6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\01Bag\Backtrack">
+      <UniqueIdentifier>{1336255e-4539-4672-93fb-fc839e8706ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\01Bag\DP">
+      <UniqueIdentifier>{5b27d548-5280-4155-9b8b-2921df2e4f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\01Bag\Input">
+      <UniqueIdentifier>{83c761c4-7719-499e-b14c-1992993a1e44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\01Bag\Framework">
+      <UniqueIdentifier>{f98a1be1-0b5b-4b64-b22e-69e2e26648c8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\01Bag\BagDirector.cpp">
-      <Filter>src\01Bag</Filter>
-    </ClCompile>
     <ClCompile Include="..\src\01Bag\BagBacktrackBuilder.cpp">
-      <Filter>src\01Bag</Filter>
+      <Filter>src\01Bag\Backtrack</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\01Bag\BagBuilder.cpp">
-      <Filter>src\01Bag</Filter>
+    <ClCompile Include="..\src\01Bag\BagDPBuilder.cpp">
+      <Filter>src\01Bag\DP</Filter>
     </ClCompile>
     <ClCompile Include="..\src\01Bag\BagInput.cpp">
-      <Filter>src\01Bag</Filter>
+      <Filter>src\01Bag\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\01Bag\BagBuilder.cpp">
+      <Filter>src\01Bag\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\01Bag\BagDirector.cpp">
+      <Filter>src\01Bag\Framework</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\01Bag\BagBacktrackBuilder.h">
-      <Filter>src\01Bag</Filter>
+      <Filter>src\01Bag\Backtrack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\01Bag\BagDPBuilder.h">
+      <Filter>src\01Bag\DP</Filter>
     </ClInclude>
     <ClInclude Include="..\src\01Bag\BagInput.h">
-      <Filter>src\01Bag</Filter>
+      <Filter>src\01Bag\Input</Filter>
     </ClInclude>
     <ClInclude Include="..\src\01Bag\ExportHeader.h">
-      <Filter>src\01Bag</Filter>
+      <Filter>src\01Bag\Framework</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

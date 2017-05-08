@@ -14,10 +14,12 @@
     <ClCompile Include="..\src\01Bag\BagBacktrackBuilder.cpp" />
     <ClCompile Include="..\src\01Bag\BagBuilder.cpp" />
     <ClCompile Include="..\src\01Bag\BagDirector.cpp" />
+    <ClCompile Include="..\src\01Bag\BagDPBuilder.cpp" />
     <ClCompile Include="..\src\01Bag\BagInput.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\01Bag\BagBacktrackBuilder.h" />
+    <ClInclude Include="..\src\01Bag\BagDPBuilder.h" />
     <ClInclude Include="..\src\01Bag\BagInput.h" />
     <ClInclude Include="..\src\01Bag\ExportHeader.h" />
   </ItemGroup>
