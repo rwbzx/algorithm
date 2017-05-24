@@ -19,6 +19,9 @@
     <Filter Include="src\01Bag\Framework">
       <UniqueIdentifier>{f98a1be1-0b5b-4b64-b22e-69e2e26648c8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Template">
+      <UniqueIdentifier>{6fe47eb1-23d9-4fca-ba25-c2a1a37d4213}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\01Bag\BagBacktrackBuilder.cpp">
@@ -49,6 +52,9 @@
     </ClInclude>
     <ClInclude Include="..\src\01Bag\ExportHeader.h">
       <Filter>src\01Bag\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Template\Template.h">
+      <Filter>src\Template</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

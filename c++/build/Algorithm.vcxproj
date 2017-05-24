@@ -22,6 +22,7 @@
     <ClInclude Include="..\src\01Bag\BagDPBuilder.h" />
     <ClInclude Include="..\src\01Bag\BagInput.h" />
     <ClInclude Include="..\src\01Bag\ExportHeader.h" />
+    <ClInclude Include="..\src\Template\Template.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{40F5872F-2439-4DE4-8823-0043763418BB}</ProjectGuid>
