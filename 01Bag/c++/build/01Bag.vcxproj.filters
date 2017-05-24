@@ -21,34 +21,34 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\01Bag\BagBacktrackBuilder.cpp">
+    <ClCompile Include="..\src\BagBacktrackBuilder.cpp">
       <Filter>src\01Bag\Backtrack</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\01Bag\BagDPBuilder.cpp">
+    <ClCompile Include="..\src\BagDPBuilder.cpp">
       <Filter>src\01Bag\DP</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\01Bag\BagInput.cpp">
+    <ClCompile Include="..\src\BagBuilder.cpp">
+      <Filter>src\01Bag\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BagDirector.cpp">
+      <Filter>src\01Bag\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BagInput.cpp">
       <Filter>src\01Bag\Input</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\01Bag\BagBuilder.cpp">
-      <Filter>src\01Bag\Framework</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\01Bag\BagDirector.cpp">
-      <Filter>src\01Bag\Framework</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\src\01Bag\BagBacktrackBuilder.h">
+    <ClInclude Include="..\src\BagBacktrackBuilder.h">
       <Filter>src\01Bag\Backtrack</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\01Bag\BagDPBuilder.h">
+    <ClInclude Include="..\src\BagDPBuilder.h">
       <Filter>src\01Bag\DP</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\01Bag\BagInput.h">
-      <Filter>src\01Bag\Input</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\01Bag\ExportHeader.h">
+    <ClInclude Include="..\src\ExportHeader.h">
       <Filter>src\01Bag\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BagInput.h">
+      <Filter>src\01Bag\Input</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
